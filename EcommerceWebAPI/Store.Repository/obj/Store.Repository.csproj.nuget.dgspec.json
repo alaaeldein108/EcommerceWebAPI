@@ -1,0 +1,148 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\.Net\\Route\\Eng Ahmed Khalid\\06 API\\Session 06\\Assignment6API\\Store.Repository\\Store.Repository.csproj": {}
+  },
+  "projects": {
+    "D:\\.Net\\Route\\Eng Ahmed Khalid\\06 API\\Session 06\\Assignment6API\\Store.Data\\Store.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\.Net\\Route\\Eng Ahmed Khalid\\06 API\\Session 06\\Assignment6API\\Store.Data\\Store.Data.csproj",
+        "projectName": "Store.Data",
+        "projectPath": "D:\\.Net\\Route\\Eng Ahmed Khalid\\06 API\\Session 06\\Assignment6API\\Store.Data\\Store.Data.csproj",
+        "packagesPath": "C:\\Users\\Alaa Eldein\\.nuget\\packages\\",
+        "outputPath": "D:\\.Net\\Route\\Eng Ahmed Khalid\\06 API\\Session 06\\Assignment6API\\Store.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Alaa Eldein\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.28, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.28, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.28, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\.Net\\Route\\Eng Ahmed Khalid\\06 API\\Session 06\\Assignment6API\\Store.Repository\\Store.Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\.Net\\Route\\Eng Ahmed Khalid\\06 API\\Session 06\\Assignment6API\\Store.Repository\\Store.Repository.csproj",
+        "projectName": "Store.Repository",
+        "projectPath": "D:\\.Net\\Route\\Eng Ahmed Khalid\\06 API\\Session 06\\Assignment6API\\Store.Repository\\Store.Repository.csproj",
+        "packagesPath": "C:\\Users\\Alaa Eldein\\.nuget\\packages\\",
+        "outputPath": "D:\\.Net\\Route\\Eng Ahmed Khalid\\06 API\\Session 06\\Assignment6API\\Store.Repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Alaa Eldein\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\.Net\\Route\\Eng Ahmed Khalid\\06 API\\Session 06\\Assignment6API\\Store.Data\\Store.Data.csproj": {
+                "projectPath": "D:\\.Net\\Route\\Eng Ahmed Khalid\\06 API\\Session 06\\Assignment6API\\Store.Data\\Store.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "StackExchange.Redis": {
+              "target": "Package",
+              "version": "[2.7.33, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
